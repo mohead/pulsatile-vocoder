@@ -1,16 +1,16 @@
-# Braecker Vocoder #
+# Pulsatile Vocoder #
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3233519.svg)](https://doi.org/10.5281/zenodo.3233519)
-### What is the Braecker Cochlear Vocoder? ###
+### What is the Pulsatile Vocoder? ###
 
-The Braecker Vocoder ist a tool for conducting Cochlear Implant (CI) listening experiments with normal hearing subjects. It mimics the signal processing stages in a cochlear implant, the electrode placement in the cochlea and the spatial spread of excitation due to electrical stimulation.
+The pulsatile Vocoder ist a tool for conducting Cochlear Implant (CI) listening experiments with normal hearing subjects. It mimics the signal processing stages in a cochlear implant, the electrode placement in the cochlea, and the spatial spread of excitation due to electrical stimulation, and makes the signal audible again.
 More specifically it simulates the ACE CI-coding strategy (Nogueira et al, 2005) or the CIS CI-coding strategy
 and then the place of stimulation of either the Cochlear Contour Advance Electrode Array or the MedEl Flex 24 electrode according
 to place-to-frequency-data from Landsberger et al., 2015.
 The basic idea is first an CI stimulation stage, followed by an auralization stage (Bräcker et al., 2009).The signal is processed like in a CI and the output of the CI stimulation stage is an electrodogramm,
 which then can be send to a CI subjects implant. In the next step, this electrodogram is auralized, to make it audible for normal hearing subjects.
-This version is improved compared to Bräcker et al., 2009, by producing electrodogramms, which has been sucessfully tested in actual CI subjects.
+This version is able to produce electrodogramms, which has been sucessfully tested in actual CI subjects (Hu et al, 2018, Eichenauer et al, 2016).
 
-![signal flow graph of the braecker vocoder](Vocoder/Vocoder_Flowchart.png)
+![signal flow graph of the pulsatile vocoder](Vocoder/Vocoder_Flowchart.png)
 
 ### CI coding strategy ###
 
