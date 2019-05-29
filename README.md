@@ -1,5 +1,5 @@
 # Pulsatile Vocoder #
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3233519.svg)](https://doi.org/10.5281/zenodo.3233519)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3233518.svg)](https://doi.org/10.5281/zenodo.3233518)
 ### What is the Pulsatile Vocoder? ###
 
 The pulsatile Vocoder ist a tool for conducting Cochlear Implant (CI) listening experiments with normal hearing subjects. It mimics the signal processing stages in a cochlear implant, the electrode placement in the cochlea, and the spatial spread of excitation due to electrical stimulation, and makes the signal audible again.
@@ -69,7 +69,7 @@ inverted to normal amplitude again. Because this is a nonlinear function, signal
 will occur and be audible.
 ### License and Credits ###
 If you want to use this code in your own work, please cite this software, using the following DOI:
-https://doi.org/10.5281/zenodo.3233519.
+https://doi.org/10.5281/zenodo.3233518.
 
 The code is based on code written by Timo Bräcker (Vocoder) and Anja Eisenauer (CI coding strategy).
 
